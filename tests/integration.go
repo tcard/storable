@@ -63,6 +63,6 @@ func NewAnotherModelStore(db *mgo.Database, foo bool) *AnotherModelStore {
 	}
 }
 
-func NewAnotherModel() *AnotherModel {
+func newAnotherModel() *AnotherModel {
 	return &AnotherModel{}
 }

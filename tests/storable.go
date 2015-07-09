@@ -8,7 +8,7 @@ import (
 )
 
 func (s *AnotherModelStore) New() (doc *AnotherModel) {
-	doc = NewAnotherModel()
+	doc = newAnotherModel()
 	doc.SetIsNew(true)
 	return
 }
